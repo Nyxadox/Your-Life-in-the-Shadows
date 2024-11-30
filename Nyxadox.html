@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Life in the Shadows</title>
+    <link rel="stylesheet" href="css/Nyxadox.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Life in the Shadows</h1>
+            <p class="tagline">"Life is worth living, so live another day."</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="#favorites">Favorites</a></li>
+                <li><a href="#dreams">Dream Goals</a></li>
+                <li><a href="#quotes">Viola</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>My legal full name is Altin Milazim Tahiri born in Kosovo,Ferizaj.
+                since i was a little kid i loved gaming and i just had fun playing games i have been 
+            playing videogames since the age of 4 first playing GTA Vice City and then other games 
+            my family dosent really understand me like i really wanna make gaming a thing of my life i wish they knew how much this means to me.</p>
+            </section>
+
+            <section id="biography">
+                <h2>Biography</h2>
+                <p><strong>Born:</strong> Ferizaj, Kosovo</p>
+                <p><strong>Raised:</strong> Ferizaj, surrounded by love, culture, and challenges.</p>
+                <p><strong>Family:</strong>I have grown with only one brother and two of my parents.</p>
+            </section>
+
+            <section id="memories">
+                <h2>Memories</h2>
+                <ul>
+                    <li>Felt alone my whole life no one really had my back im still alone but once i was not</li>
+                    <li>I had this best friend i have talked about it with my friends but they dont really know how important she was to me.</li>
+                    <li>On september of 2024 i wrote my first song and publish it on soundcloud its called A Wasted Year.</li>
+                </ul>
+            </section>
+
+            <section id="favorites">
+                <h2>Favorites</h2>
+                <ul>
+                    <li><strong>Favorite Artist:</strong> XXXTentacion - He was just alone like me and i feel how he felt.</li>
+                    <li><strong>Favorite Hobby:</strong> Videogames play a big role in my life.</li>
+                    <li><strong>Favorite Quote:</strong> "Love yourself, because no one else will." - XXXTentacion.</li>
+                </ul>
+            </section>
+
+            <section id="dreams">
+                <h2>Dream Goals</h2>
+                <p>To be one of the best streamers and gamers of all time.</p>
+            </section>
+
+            <section id="quotes">
+                <h2>Viola.</h2>
+                <p>Viola was my favorite person she was like a sister to me i wish she could read these words.<p>
+                <p>So Viola played the biggest role in my life she helped me get through stuff she helped me get through my mental sadness and if i ever reach the top all credits will go to Viola even that she was in another religion i still loved her the most if i could just talk to her one last time to tell her how much i love her and how much i miss her,i miss her everyday i think of her every moment and if i ever reach the top i would love her to be there and reach it with me.<p>
+                <p>I miss you<p>	
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>If you want to connect or collaborate, feel free to reach out!</p>
+                <ul>
+                    <li>Email: <a href="mailto:your.email@example.com">tinitahiri55@gmail.com</a></li>
+                    <li>Tiktok: <a href="https://instagram.com/yourusername" target="_blank">@youngsavagedick</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Nyxadox. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const sections = document.querySelectorAll("main section");
+        const options = { threshold: 0.2 };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                }
+            });
+        }, options);
+
+        sections.forEach((section) => {
+            observer.observe(section);
+        });
+    });
+</script>
+
+</html>
